@@ -2,7 +2,7 @@
 
 A single-file showcase of hands-on, vanilla JavaScript — no framework, no build step, no dependencies to install. Open `index.html` in a browser (or serve it with GitHub Pages) and every script runs live, right in the page.
 
-**[Live demo →](#)** *(update this link once GitHub Pages is enabled — see below)*
+**[Live demo →](https://jamesmakau18.github.io/Js_lab/)**
 
 ## Why this exists
 
@@ -26,8 +26,8 @@ Most portfolios describe skills. This one runs them. Each entry is real, working
 No install required:
 
 ```bash
-git clone <your-repo-url>
-cd field-scripts
+git clone https://github.com/jamesmakau18/Js_lab.git
+cd Js_lab
 open index.html   # or just double-click it
 ```
 
@@ -36,14 +36,12 @@ Everything runs client-side in the browser — there's nothing to `npm install`.
 ## Deploying to GitHub Pages
 
 ```bash
-git init
-git add index.html README.md
-git commit -m "raw JS field scripts"
-git remote add origin <your-repo-url>
-git push -u origin main
+git add index.html Readme.md
+git commit -m "update field scripts"
+git push origin master
 ```
 
-Then in the repo: **Settings → Pages → Deploy from a branch → `main` / root**. The page will be live at `https://<your-username>.github.io/<repo-name>/` within a minute or two.
+`master` and `main` are kept in sync in this repo, so either branch works for **Settings → Pages → Deploy from a branch**. Pages is already live at [jamesmakau18.github.io/Js_lab](https://jamesmakau18.github.io/Js_lab/) — pushing to `master` updates the live site within a minute or two.
 
 ## Adding your own script
 
